@@ -6,7 +6,7 @@ const LandingLayout = (
         { children } : LandingPageLayoutProps
 ) => {
   return (
-    <div className="w-full scroll-smooth overflow-x-hidden">
+    <div className="w-full overflow-x-hidden min-h-screen">
       {children}
     </div>
   )
